@@ -15,3 +15,9 @@
 ; predicate
 (pos? P1) ; #true
 (pos? "hello") ; #false
+
+; To form a structure definition
+; (define-struct <struct-name> (<field-name ...))
+; Constructor -> make-<structure-name>
+; Selector(s) -> <structure-name>-<field-name>
+; Predicate   -> <structure-name>?
